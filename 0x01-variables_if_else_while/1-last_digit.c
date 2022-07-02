@@ -5,15 +5,14 @@
 
 
 /**
-*main -> assign a random number
-*annd print the last digit
-*Return : always 0
+*main - print the last digit of a rondom number
+*number stored in variable n
+*Return: always 0 (success)
 */
 
 
 
 int main(void)
-
 {
 
 	int n;
@@ -27,15 +26,15 @@ int main(void)
 
 	if (n % 10 > 5)
 
-		printf("and is greater than 5\n");
+		printf(" and is greater than 5\n");
 
 	if (n % 10 == 0)
 
-		printf("and is 0\n");	
+		printf(" and is 0\n");	
 
 	if (n % 10 < 6 && n % 10 != 0)
 
-		printf("and is less than 6 not 0\n");
+		printf("and is less than 6 and not 0\n");
 
 
 	return (0);
