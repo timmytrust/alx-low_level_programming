@@ -11,12 +11,12 @@
 int main(void)
 {
 
-	int ch;
-	for (ch = 48; ch <= 57; ch++)
+	int n;
+	for (n = 48; n <= 57; n++)
 	{
 
-		printf(ch);
+		putchar(n);
 	}
-	printf(10);
+	putchar('\n');
 	return (0);
 }
