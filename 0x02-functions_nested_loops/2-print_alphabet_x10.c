@@ -11,17 +11,16 @@ int j;
 
 int x;
 
-for (x = 0; x < 10; x++)
+for(x = 0; x < 10; x++)
 {
 
- for (j = 'a'; j <= 'z'; j++)
+for(j = 'a'; j <= 'z'; j++)
  {
-
- _putchar(j);
+_putchar(j);
 
  }
 
- _putchar('\n');
+_putchar('\n');
 
 }
 
