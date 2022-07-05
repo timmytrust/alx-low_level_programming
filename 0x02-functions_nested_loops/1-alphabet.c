@@ -2,6 +2,7 @@
 
 /**
 * Print_alphabet -> prints alphabets in lowercase
+* print_alphabet -> prints alphabets in lowercase
 * Description: 'prints the alphabet, in lowercase.'
 */
 
