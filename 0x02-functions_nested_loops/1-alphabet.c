@@ -1,14 +1,11 @@
-#include <main.h>
+#include "main.h"
 
 
 
 /**
- *
- * *main - prints alphabets
- *
- * *Return: Always 0 (Success)
- *
- * */
+*main - prints alphabets
+*Return: Always 0 (Success)
+*/
 
 
 
