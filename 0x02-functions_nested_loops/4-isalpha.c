@@ -1,14 +1,10 @@
 #include "main.h"
 
 /**
- *
- * * _isalpha - check if the character is lower
- *
- * *@c: a character to be checked on
- *
- * *Return: 1 and 0 depending on condition
- *
- * */
+*_isalpha - check if the character is lower
+*@c: a character to be checked on
+*Return: 1 and 0 depending on condition
+*/
 
 
 
