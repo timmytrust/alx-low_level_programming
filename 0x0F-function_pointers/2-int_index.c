@@ -3,26 +3,17 @@
 
 
 /**
- *
  * int_index - ...
- *
  * @array: ...
- *
  * @size: ...
- *
  * @cmp: ...
- *
  * Return: ...
- *
  */
 
 int int_index(int *array, int size, int (*cmp)(int))
 
 {
-
 	int i = 0;
-
-
 
 	if (size > 0)
 
@@ -31,7 +22,6 @@ int int_index(int *array, int size, int (*cmp)(int))
 		if (array != NULL && cmp != NULL)
 
 		{
-
 			while (i < size)
 
 			{
@@ -40,18 +30,12 @@ int int_index(int *array, int size, int (*cmp)(int))
 
 					return (i);
 
-
-
 				i++;
-
 			}
 
 		}
 
 	}
-
-
-
 	return (-1);
 
 }
